@@ -1,58 +1,63 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/255467433/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Finished game](images/finished-game.png)
 --- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ Describe hardware here
-
-### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
-
---- /collapse ---
 
 --- collapse ---
 ---
 title: What you will learn
 ---
-
-+ Two or three learning objectives
-+ ...should go here
++ How to broadcast a message and have other sprites respond
++ How to select random items from a list
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: What you will need
 ---
+---
+### Hardware
++ A computer capable of running Scratch 2.0
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+### Software
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+### Downloads
++ [Offline starter project](http://rpf.io/p/en/guess-the-flag-scratch2-go){:target="_blank"}
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Additional notes for educators
+---
+--- no-print ---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
+--- /no-print ---
+
+You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-scratch2-go){:target="_blank"}.
+
+You can [download the solution for this project here](http://rpf.io/p/en/guess-the-flag-scratch2-get){:target="_blank"}.
 
 --- /collapse ---
