@@ -40,7 +40,7 @@ title: What you will need
 + A computer capable of running Scratch 2.0
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 2.0 [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-scratch2-go){:target="_blank"}
