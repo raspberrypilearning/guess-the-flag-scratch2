@@ -72,10 +72,10 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 + repeat (6)
-    + switch costume to (item (last v) of [chosen flags v])
-    + create clone of [myself v]
-    + delete (last v) of [chosen flags v]
-    + change x by (110)
++ switch costume to (item (last v) of [chosen flags v])
++ create clone of [myself v]
++ delete (last v) of [chosen flags v]
++ change x by (110)
 end
 ```
 --- /hint ---
