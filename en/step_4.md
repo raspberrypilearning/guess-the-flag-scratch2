@@ -49,6 +49,7 @@ This is what your code should look like:
 This block selects an item from a list by number:
 
 ![blocks_1545218481_3080678](images/blocks_1545218481_3080678.png)
+
 --- task ---
 Combine this block with the `flag number`{:class="blockdata"} variable to get the text of the randomly chosen item from the `flags`{:class="blockdata"} list. Then insert the item text into the `chosen flags`{:class="blockdata"} list. Add this code to your custom block:
 
