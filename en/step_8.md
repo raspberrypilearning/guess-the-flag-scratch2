@@ -59,7 +59,7 @@ This is what your code should look like:
 
 ```blocks
 when this sprite clicked
-create flags list
+create flags list :: custom
 if <(item (costume #) of [flags v]) = (correct answer)> then
     say [Correct] for (2) secs
 else

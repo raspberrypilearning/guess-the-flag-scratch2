@@ -21,7 +21,7 @@ when this sprite clicked
 create flag list :: custom
 if <(item (costume #) of [flags v]) = (correct answer)> then
     say [Correct] for (2) secs
-    + change [score v] by [1]
++   change [score v] by [1]
 else
     say [Sorry, that was wrong] for (2) secs
 end
