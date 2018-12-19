@@ -9,9 +9,7 @@ Add two more code blocks, one each for the other two flags you created, so there
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-add [Country] to [flags v]
-```
+![blocks_1545217611_9379137](images/blocks_1545217611_9379137.png)
 --- /task ---
 
 --- task ---
@@ -25,14 +23,7 @@ At the start of the code, add a block to `delete all`{:class="blockdata"} of the
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-when green flag clicked
-+ delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-...
-```
+![blocks_1545217613_0588439](images/blocks_1545217613_0588439.png)
 
 --- /task ---
 
@@ -49,20 +40,7 @@ Click on **More Blocks** and then on **Make a Block**. Call your custom block `c
 --- task ---
 Drag all the code away from below the `when flag clicked`{:class="blockevents"} block to below the new `create flag list`{:class="blockmoreblocks"} block.
 
-```blocks
-define create flag list
-delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-add [Turkey] to [flags v]
-add [Denmark] to [flags v]
-add [Chile] to [flags v]
-add [Botswana] to [flags v]
-add [Bangladesh] to [flags v]
-add [Ghana] to [flags v]
-add [Luxembourg] to [flags v]
-```
+![blocks_1545217614_304488](images/blocks_1545217614_304488.png)
 
 --- /task ---
 
@@ -71,10 +49,6 @@ Below the `when flag clicked`{:class="blockevents"} block, add the new `create f
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-when green flag clicked
-create flag list :: custom
-...
-```
+![blocks_1545217615_4843352](images/blocks_1545217615_4843352.png)
 
 --- /task ---  

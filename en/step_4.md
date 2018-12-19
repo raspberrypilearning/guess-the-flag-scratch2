@@ -15,9 +15,7 @@ Create a custom block and call it `choose random flag`{:class="blockmoreblocks"}
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-define choose random flag
-```
+![blocks_1545217616_6242857](images/blocks_1545217616_6242857.png)
 
 --- /task ---
 
@@ -36,24 +34,13 @@ Set the `flag number`{:class="blockdata"} variable to a `random number`{:class="
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
-(length of [flags v])
-
-(pick random (1) to (10))
-
-define choose random flag
-
-set [flag number v] to []
-```
+![blocks_1545217617_7991447](images/blocks_1545217617_7991447.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-```blocks
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-```
+![blocks_1545217618_913448](images/blocks_1545217618_913448.png)
 --- /hint ---
 
 --- /hints ---
@@ -61,19 +48,13 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 This block selects an item from a list by number:
 
-```blocks
-(item (10 v) of [flags v])
-```
+![blocks_1545217620_0388582](images/blocks_1545217620_0388582.png)
 --- task ---
 Combine this block with the `flag number`{:class="blockdata"} variable to get the text of the randomly chosen item from the `flags`{:class="blockdata"} list. Then insert the item text into the `chosen flags`{:class="blockdata"} list. Add this code to your custom block:
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-+ insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
-```
+![blocks_1545217621_148809](images/blocks_1545217621_148809.png)
 
 --- /task ---
 
@@ -82,11 +63,7 @@ Add the custom `choose random flag`{:class="blockmoreblocks"} block to the code 
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-when green flag clicked
-create flag list :: custom
-+ choose random flag :: custom
-```
+![blocks_1545217622_276913](images/blocks_1545217622_276913.png)
 --- /task ---
 
 --- task ---
@@ -102,14 +79,7 @@ Add blocks to delete all the items from the `chosen flags`{:class="blockdata"} l
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-when green flag clicked
-create flag list :: custom
-+ delete (all v) of [chosen flags v]
-+ repeat (6)
-    choose random flag :: custom
-end
-```
+![blocks_1545217623_3873913](images/blocks_1545217623_3873913.png)
 --- /task ---
 
 
@@ -128,12 +98,7 @@ Add a block to the end of your custom block code to delete the `flag number`{:cl
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
-+ delete (flag number) of [flags v]
-```
+![blocks_1545217624_4690938](images/blocks_1545217624_4690938.png)
 --- /task ---
 
 If you want to, you can now right-click on the lists and variables and hide them, so that they don't take up space on the Stage. If you want to show them again, go to the Data section and select the boxes next to the list names or variable names.
