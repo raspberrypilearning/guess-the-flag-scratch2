@@ -1,6 +1,6 @@
-# guess-the-flag-scratch2
+# Guess the flag
 
-![guess-the-flag-scratch2](banner.png)
+![Guess the flag](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/guess-the-flag-scratch2](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2)
 
@@ -11,4 +11,4 @@ For solutions and project materials, see [en/resources](https://github.com/raspb
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licence
- See [LICENSE.md](LICENSE.md)
+See [LICENSE.md](LICENSE.md)
