@@ -15,7 +15,7 @@ Add code to say 'Correct' if the costume name of the Flag sprite is the same as 
 
 You can use this useful block here as well.
 
-![blocks_1545217637_0349815](images/blocks_1545217637_0349815.png)
+![blocks_1545218497_9445398](images/blocks_1545218497_9445398.png)
 
 This time, combine it with a `costume #`{:class="blocklooks"} block to get the name of the current Flag sprite costume.
 
@@ -29,13 +29,13 @@ This time, combine it with a `costume #`{:class="blocklooks"} block to get the n
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545217638_1698315](images/blocks_1545217638_1698315.png)
+![blocks_1545218498_9931464](images/blocks_1545218498_9931464.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545217639_3234053](images/blocks_1545217639_3234053.png)
+![blocks_1545218500_0992484](images/blocks_1545218500_0992484.png)
 --- /hint ---
 
 --- /hints ---

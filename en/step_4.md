@@ -15,7 +15,7 @@ Create a custom block and call it `choose random flag`{:class="blockmoreblocks"}
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545217616_6242857](images/blocks_1545217616_6242857.png)
+![blocks_1545218478_0597425](images/blocks_1545218478_0597425.png)
 
 --- /task ---
 
@@ -34,13 +34,13 @@ Set the `flag number`{:class="blockdata"} variable to a `random number`{:class="
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545217617_7991447](images/blocks_1545217617_7991447.png)
+![blocks_1545218479_1243653](images/blocks_1545218479_1243653.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545217618_913448](images/blocks_1545217618_913448.png)
+![blocks_1545218480_1906664](images/blocks_1545218480_1906664.png)
 --- /hint ---
 
 --- /hints ---
@@ -48,13 +48,13 @@ This is what your code should look like:
 
 This block selects an item from a list by number:
 
-![blocks_1545217620_0388582](images/blocks_1545217620_0388582.png)
+![blocks_1545218481_3080678](images/blocks_1545218481_3080678.png)
 --- task ---
 Combine this block with the `flag number`{:class="blockdata"} variable to get the text of the randomly chosen item from the `flags`{:class="blockdata"} list. Then insert the item text into the `chosen flags`{:class="blockdata"} list. Add this code to your custom block:
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545217621_148809](images/blocks_1545217621_148809.png)
+![blocks_1545218482_4025342](images/blocks_1545218482_4025342.png)
 
 --- /task ---
 
@@ -63,7 +63,7 @@ Add the custom `choose random flag`{:class="blockmoreblocks"} block to the code 
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545217622_276913](images/blocks_1545217622_276913.png)
+![blocks_1545218483_497608](images/blocks_1545218483_497608.png)
 --- /task ---
 
 --- task ---
@@ -79,7 +79,7 @@ Add blocks to delete all the items from the `chosen flags`{:class="blockdata"} l
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545217623_3873913](images/blocks_1545217623_3873913.png)
+![blocks_1545218484_5571241](images/blocks_1545218484_5571241.png)
 --- /task ---
 
 
@@ -98,7 +98,7 @@ Add a block to the end of your custom block code to delete the `flag number`{:cl
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545217624_4690938](images/blocks_1545217624_4690938.png)
+![blocks_1545218485_6873522](images/blocks_1545218485_6873522.png)
 --- /task ---
 
 If you want to, you can now right-click on the lists and variables and hide them, so that they don't take up space on the Stage. If you want to show them again, go to the Data section and select the boxes next to the list names or variable names.
