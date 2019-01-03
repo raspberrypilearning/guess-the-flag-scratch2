@@ -11,5 +11,5 @@ After the six flags are chosen, set the `correct answer`{:class="blockdata"} var
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218486_835835](images/blocks_1545218486_835835.png)
+![blocks_1546524257_5094986](images/blocks_1546524257_5094986.png)
 --- /task ---

@@ -7,7 +7,7 @@ In the flag sprite, `broadcast the message`{:class="blockevents"} 'announce coun
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218494_624898](images/blocks_1545218494_624898.png)
+![blocks_1546524268_9275649](images/blocks_1546524268_9275649.png)
 
 [[[generic-scratch-broadcast-message]]]
 --- /task ---
@@ -32,14 +32,14 @@ Add some code to the quiz master sprite so that, when the sprite receives the `a
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545218495_7202935](images/blocks_1545218495_7202935.png)
+![blocks_1546524270_545037](images/blocks_1546524270_545037.png)
 
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545218496_84825](images/blocks_1545218496_84825.png)
+![blocks_1546524272_1615796](images/blocks_1546524272_1615796.png)
 --- /hint ---
 
 --- /hints ---

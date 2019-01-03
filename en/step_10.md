@@ -7,7 +7,7 @@ Create a new `broadcast`{:class="blockevents"} that sends the message 'Start the
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218464_842496](images/blocks_1545218464_842496.png)
+![blocks_1546524225_7197363](images/blocks_1546524225_7197363.png)
 
 --- /task ---
 
@@ -17,7 +17,7 @@ Add a `when I receive 'Start the round'`{:class="blockevents"} block, and then m
 ![Flag sprite](images/flag-sprite.png)
 
 
-![blocks_1545218467_1248424](images/blocks_1545218467_1248424.png)
+![blocks_1546524228_3548393](images/blocks_1546524228_3548393.png)
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Remove the `set score to 0`{:class="blockdata"} block and place it back below th
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218468_2146442](images/blocks_1545218468_2146442.png)
+![blocks_1546524230_0148969](images/blocks_1546524230_0148969.png)
 --- /task ---
 
 --- task ---
@@ -34,7 +34,7 @@ After the code that checks whether the answer is correct, add another `when I re
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218469_273642](images/blocks_1545218469_273642.png)
+![blocks_1546524231_5934067](images/blocks_1546524231_5934067.png)
 
 --- /task ---
 
@@ -51,7 +51,7 @@ Create another new `broadcast`{:class="blockevents"} called 'clean up'.
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218470_4310997](images/blocks_1545218470_4310997.png)
+![blocks_1546524233_2246745](images/blocks_1546524233_2246745.png)
 --- /task ---
 
 --- task ---
@@ -59,13 +59,13 @@ Set the Flag sprite to `delete this clone`{:class="blockcontrol"} when it receiv
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545218471_5536282](images/blocks_1545218471_5536282.png)
+![blocks_1546524234_819807](images/blocks_1546524234_819807.png)
 --- /task ---
 
 --- task ---
 Place the `clean up`{:class="blockevents"} broadcast block just above where the game starts a new round after an answer has been given.
 
-![blocks_1545218472_6182592](images/blocks_1545218472_6182592.png)
+![blocks_1546524236_4284346](images/blocks_1546524236_4284346.png)
 --- /task ---
 
 --- task ---
