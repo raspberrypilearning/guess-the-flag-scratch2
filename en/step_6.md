@@ -7,7 +7,9 @@ Create another custom block, and call this one `clone flags`{:class="blockmorebl
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524259_1352067](images/blocks_1546524259_1352067.png)
+```blocks
+define clone flags
+```
 
 --- /task ---
 
@@ -20,7 +22,11 @@ As part of the instructions for your `clone flags`{:class="blockmoreblocks"} blo
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524260_7382407](images/blocks_1546524260_7382407.png)
+```blocks
+define clone flags
+show
+go to x: (-170) y: (120)
+```
 --- /task ---
 
 --- task ---
@@ -42,13 +48,36 @@ Inside the loop, add code blocks to switch the sprite's costume to the last flag
 --- hint ---
 Here are the code blocks you need to add:
 
-![blocks_1546524262_3328414](images/blocks_1546524262_3328414.png)
+```blocks
+(item (last v) of [chosen flags v])
+
+change x by (110)
+
+create clone of [myself v]
+
+switch costume to [ v]
+
+delete (last v) of [chosen flags v]
+
+repeat (6)
+end
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546524263_973016](images/blocks_1546524263_973016.png)
+```blocks
+define clone flags
+show
+go to x: (-170) y: (120)
++ repeat (6)
+switch costume to (item (last v) of [chosen flags v])
+create clone of [myself v]
+delete (last v) of [chosen flags v]
+change x by (110)
+end
+```
 --- /hint ---
 
 --- /hints ---
@@ -59,7 +88,15 @@ Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code th
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524265_6233544](images/blocks_1546524265_6233544.png)
+```blocks
+when green flag clicked
+create flag list :: custom
+delete (all v) of [chose flags v]
+repeat (6)
+  choose random flag :: custom
+end
++ clone flags :: custom
+```
 
 --- /task ---
 
@@ -79,7 +116,20 @@ Add some code inside the `repeat`{:class="blockcontrol"} loop of the `clone flag
 
 You can the sprite move down a row by using another `go to`{:class="blockmotion"} block and keeping the `x`{:class="blockmotion"} coordinate the same as the starting point, but decreasing the `y`{:class="blockmotion"} coordinate to move downwards.
 
-![blocks_1546524267_281526](images/blocks_1546524267_281526.png)
+```blocks
+define clone flags
+show
+go to x: (-170) y: (120)
+repeat (6)
+    switch costume to (item (last v) of [chosen flags v])
+    create clone of [myself v]
+    delete (last v) of [chosen flags v]
+    change x by (110)
++   if <(length of [chosen flags v]) = [3]> then
+        go to x: (-170) y: (50)
+    end
+end
+```
 --- /task ---
 
 --- task ---
